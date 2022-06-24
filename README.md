@@ -1,2 +1,2 @@
-# Football-Team-website-Django
-It is a website of a football team built on Django python framework the work is still going on
+# Django App develpoment
+It is a basic work of a football based app built on django where any body can apply or contact the Team's management.
