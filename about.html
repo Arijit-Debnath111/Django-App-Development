@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}
+About
+{% endblock title %}
+
+{% block body %}
+<div class="container-fluid my-4 ">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+ </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/900x300/?football,about Team" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="background-color:black ;">This is About Us page of the Team</h5>
+        <p style="background-color:black ;">This includes the information about the Team</p>
+      </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container ">
+<h1 class="my-2 text-center">Get all the information of Team from this page</h1>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/900x900/?football,Team's History" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">This includes the origin and history of the Team</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary ">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://source.unsplash.com/900x900/?football,management Team" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">This includes Team's management</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock body %}
